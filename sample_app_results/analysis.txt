@@ -1,0 +1,11 @@
+Crack Percentage (Density) in AOI: 4.30%
+Severity: Moderate
+
+Mean Crack Width: 17.24 pixels
+Max Crack Width: 36.50 pixels
+Total Crack Length: 1811.00 pixels
+Longest Continuous Crack: 1799 pixels
+Number of Connected Cracks: 2
+
+Image Size: 768x1024
+AOI Size: 768x1024
