@@ -75,23 +75,40 @@ Capabilities include:
 # Repository Structure
 
 ```text
+
 ├── code/
 │   ├── main_model.m
 │   ├── inference.m
 │   └── predict_example.m
 │
-├── model/
-│   └── trained_unet.mat
-│
-├── app/
-│   └── CrackSegmentationApp.exe
-│
 ├── sample_images/
-├── results/
-├── figures/
+│   ├── sample1.jpg
+│   ├── sample2.jpg
+│   └── ...
+│
+├── sample_results/
+│   ├── sample1_binary_mask.png
+│   ├── sample1_overlay.png
+│   ├── sample1_crack_summary.txt
+│   └── ...
+│
+├── sample_app_results/
+│   ├── app_overlay_example.png
+│   ├── app_statistics_example.png
+│   └── ...
+│
+├── LICENSE
 └── README.md
 ```
+## Download Pretrained Model and Standalone Application
 
+Large files are hosted through GitHub Releases.
+
+Download the following files from the latest release:
+
+- `trained_unet.mat`
+
+- `CrackSegmentationApp.exe`
 ---
 
 # Reproducing Training from Source
