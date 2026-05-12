@@ -79,7 +79,6 @@ Capabilities include:
 ├── code/
 │   ├── main_model.m
 │   ├── inference.m
-│   └── predict_example.m
 │
 ├── sample_images/
 │   ├── sample1.jpg
